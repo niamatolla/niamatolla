@@ -1,6 +1,7 @@
 
 
-<img width="493" height="263" alt="Capture d’écran, le 2025-12-11 à 11 18 04" src="https://github.com/user-attachments/assets/b26e98cb-1548-4ddc-a03e-e5f3bf89779b" />
+<img width="828" height="453" alt="Capture d’écran, le 2025-12-11 à 11 35 46" src="https://github.com/user-attachments/assets/7c615c51-ae1c-416a-b6b3-794c5a70220d" />
+
 
 
 ## 🔧 Tech Stack
