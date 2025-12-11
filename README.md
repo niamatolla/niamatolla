@@ -4,7 +4,7 @@
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
-![GitHub Followers](https://img.shields.io/github/followers/hibaniama?style=social)
+![GitHub Followers](https://img.shields.io/github/followers/niamatolla?style=social)
 
 
 
