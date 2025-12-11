@@ -1,10 +1,7 @@
-# 👋 Hi, I'm Niama  
 
-🎓 Computer Engineering @ uOttawa — Dean’s Honour List  
-💻 FPGA • Embedded Systems • Full-Stack Development  
-⚡ I build hardware–software systems end-to-end.
 
----
+<img width="493" height="263" alt="Capture d’écran, le 2025-12-11 à 11 18 04" src="https://github.com/user-attachments/assets/b26e98cb-1548-4ddc-a03e-e5f3bf89779b" />
+
 
 ## 🔧 Tech Stack
 
