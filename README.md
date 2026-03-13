@@ -12,18 +12,12 @@
 
 ## 🔧 Tech Stack
 
-**Languages:** Python, Java, C, JavaScript, SQL, VHDL, MicroPython, PowerShell  
+**Languages:** Python, Java, C, JavaScript, TypeScript, SQL, VHDL, PowerShell  
 **Frameworks:** React, Node.js, Express, Spring Boot, TailwindCSS, Vite, Maven  
-**Tools:** MySQL, Postman, Git/GitHub, Android Studio, Quartus II  
-**Concepts:** REST APIs, IoT, Database Design, UI/UX, Embedded Systems
-
----
-
-## 🚀 Featured Projects
-
-### **AquaDrip 💧🌱 — IoT Irrigation System**  
-ESP32 → Spring Boot API → MySQL → Web dashboard  
-Real-time moisture monitoring + automatic & manual pump control.
+**AI & ML:** RAG Pipelines, Vector Search, Azure OpenAI, LLM Evaluation  
+**Testing & Dev Tools:** Vitest, Biome, Postman, Git, GitHub, GitLab  
+**Cloud & Platforms:** Docker, Kubernetes, Azure AI Agents  
+**Other:** MySQL, Android Studio, Quartus II
 
 ---
 
@@ -46,12 +40,15 @@ Breadboard CMOS ↔ RS-232 conversion verified with waveform generator + oscillo
 
 
 ## 🌱 Currently Learning  
-IoT architecture • Advanced React • System design • FPGA optimization
+
+RAG Pipelines • LLM Systems • Full-Stack Architecture • System Design
+
 
 ---
 
 ## 📫 Contact  
 📧 nahan021@uottawa.ca  
+
 
 
 
