@@ -1,7 +1,6 @@
 
-<img src="https://github.com/user-attachments/assets/7c615c51-ae1c-416a-b6b3-794c5a70220d" alt="Niama banner" width="100%" />
+<img width="710" height="404" alt="Capture d’écran, le 2026-04-28 à 14 11 12" src="https://github.com/user-attachments/assets/47203b66-7145-481d-9c66-66c52e5e1c27" />
 
-<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
 ![GitHub Followers](https://img.shields.io/github/followers/niamatolla?style=social)
