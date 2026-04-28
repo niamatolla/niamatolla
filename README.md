@@ -1,5 +1,6 @@
 
-<img width="1200" height="500" alt="Capture d’écran, le 2026-04-28 à 14 11 12" src="https://github.com/user-attachments/assets/47203b66-7145-481d-9c66-66c52e5e1c27" />
+<img width="1200" height="650" alt="GitHub Banner – Niama-2" src="https://github.com/user-attachments/assets/eb28f332-b308-4a5f-9073-1c686542ed20" />
+
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
