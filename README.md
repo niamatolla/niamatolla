@@ -1,5 +1,5 @@
 
-<img width="710" height="404" alt="Capture d’écran, le 2026-04-28 à 14 11 12" src="https://github.com/user-attachments/assets/47203b66-7145-481d-9c66-66c52e5e1c27" />
+<img width="1200" height="500" alt="Capture d’écran, le 2026-04-28 à 14 11 12" src="https://github.com/user-attachments/assets/47203b66-7145-481d-9c66-66c52e5e1c27" />
 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
