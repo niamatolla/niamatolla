@@ -4,9 +4,9 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
 ![GitHub Followers](https://img.shields.io/github/followers/niamatolla?style=social)
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🔍 RAG Research Agent (v1) — AI System
+###  RAG Research Agent (v1) — AI System
 End-to-end Retrieval-Augmented Generation system built with Azure
 
 **Pipeline:**  
@@ -22,7 +22,7 @@ PDF ingestion → chunking → embeddings → vector search → grounded answers
 
 ---
 
-### 💸 PapaPay — Full-Stack App
+###  PapaPay — Full-Stack App
 React + Node.js + MySQL  
 
 A request/approval workflow system with authentication and real-time state updates
@@ -35,18 +35,18 @@ A request/approval workflow system with authentication and real-time state updat
 
 ---
 
-## 💻 Additional Projects
+## Additional Projects
 
-### ⚙️ FPGA ALU (VHDL)
+###  FPGA ALU (VHDL)
 16-bit ALU with Booth multiplication, division, add/sub, and flags  
 Tested on DE2-115 using structural VHDL  
 
-### 🔌 MAX232 Loopback Test
+###  MAX232 Loopback Test
 CMOS ↔ RS-232 conversion validated with oscilloscope + waveform generator  
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Languages**  
 Python • Java • C • JavaScript • TypeScript • SQL • VHDL • PowerShell  
@@ -68,7 +68,7 @@ MySQL • Quartus II • Android Studio
 
 ---
 
-## 🌱 Currently Learning
+##  Currently Learning
 
 LLM Systems • RAG Architecture • System Design • Scalable Backend Systems
 
