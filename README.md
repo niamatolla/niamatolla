@@ -25,6 +25,9 @@ PDF ingestion → chunking → embeddings → vector search → grounded answers
 
 ###  PapaPay — Full-Stack App
 React + Node.js + MySQL  
+- Frontend: https://papa-pay.vercel.app
+- Backend API: https://papapay.onrender.com
+
 [![Watch the demo](https://img.youtube.com/vi/ebZYDfeHJ3w/0.jpg)](https://youtu.be/ebZYDfeHJ3w)
 
 A request/approval workflow system with authentication and real-time state updates
