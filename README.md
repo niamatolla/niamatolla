@@ -8,6 +8,7 @@
 
 ###  RAG Research Agent (v1) — AI System 
 [![Watch the demo](https://img.youtube.com/vi/h-ciobBha74/0.jpg)](https://youtu.be/h-ciobBha74)
+
 End-to-end Retrieval-Augmented Generation system built with Azure
 
 **Pipeline:**  
