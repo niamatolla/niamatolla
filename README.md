@@ -6,6 +6,55 @@
 
 ## Featured Projects
 
+### AI & Infrastructure Weather Monitoring Platform - 
+
+Containerized weather monitoring platform that collects live weather data, detects weather events across Canadian cities, and exposes REST APIs for querying readings and alerts.
+
+**Pipeline:**
+```
+Open-Meteo API  (free, no key, updates hourly)
+        │
+        ▼
+  weather_client.py
+  fetches conditions for one city at a time
+        │
+        ▼
+    poller.py
+  runs every 15 min for all three cities
+  checks (city, observed_at) before inserting
+        │
+        ├── duplicate → skip, no event detection
+        │
+        └── new reading → insert → commit
+                │
+                ▼
+        event_detection/
+          detectors.py   pure functions, no DB access
+          cooldown.py    suppresses repeat events
+          engine.py      runs detectors, checks cooldown, saves WeatherEvent
+                │
+                ▼
+        SQLite  (weather_readings + weather_events)
+        persisted in ./data/weather.db
+                │
+                ▼
+        FastAPI
+        /health   /readings   /events
+```
+**Highlights:**
+ - Live weather ingestion for Ottawa, Toronto, and Vancouver
+ - Signal-based event detection engine
+ - Deduplication and cooldown safeguards
+ - Docker & Docker Compose deployment
+ - Automated unit testing and CI/CD
+ - Custom Cursor rules, agent, and skill
+
+**Tech:** Python • FastAPI • SQLAlchemy • SQLite • Pydantic Settings
+Docker • Docker Compose • Pytest • GitHub Actions
+Cursor • REST APIs
+
+---
+
 ###  RAG Research Agent (v1) — AI System 
 [![Watch the demo](https://img.youtube.com/vi/h-ciobBha74/0.jpg)](https://youtu.be/h-ciobBha74)
 
