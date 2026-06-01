@@ -8,7 +8,7 @@
 
 ###  Watchagent Weather Monitor - Infrastructure Weather Monitoring Platform  
 
-A containerized monitoring platform that ingests live weather data, detects operationally relevant weather events, and exposes REST APIs for querying readings and alerts.
+A containerized monitoring platform that ingests live weather data, detects operationally relevant weather events, and exposes REST APIs for querying readings and alerts. Implemented Custom Cursor rules, review agent, and database analysis skill tailored to the codebase
 
 **Pipeline:**
 ```
@@ -53,7 +53,7 @@ Open-Meteo API  (free, no key, updates hourly)
 
 ---
 
-###  RAG Research Agent (v1) — AI System 
+###  RAG Research Agent (v1) — Retrieval-Augmented Generation System
 [![Watch the demo](https://img.youtube.com/vi/h-ciobBha74/0.jpg)](https://youtu.be/h-ciobBha74)
 
 End-to-end Retrieval-Augmented Generation system built with Azure
