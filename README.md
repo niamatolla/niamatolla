@@ -6,7 +6,7 @@
 
 ## Featured Projects
 
-### AI & Infrastructure Weather Monitoring Platform - 
+###  Watchagent Weather Monitor - AI & Infrastructure Weather Monitoring Platform  
 
 Containerized weather monitoring platform that collects live weather data, detects weather events across Canadian cities, and exposes REST APIs for querying readings and alerts.
 
