@@ -6,9 +6,9 @@
 
 ## Featured Projects
 
-###  Watchagent Weather Monitor - AI & Infrastructure Weather Monitoring Platform  
+###  Watchagent Weather Monitor - Infrastructure Weather Monitoring Platform  
 
-Containerized weather monitoring platform that collects live weather data, detects weather events across Canadian cities, and exposes REST APIs for querying readings and alerts.
+A containerized monitoring platform that ingests live weather data, detects operationally relevant weather events, and exposes REST APIs for querying readings and alerts.
 
 **Pipeline:**
 ```
@@ -49,9 +49,7 @@ Open-Meteo API  (free, no key, updates hourly)
  - Automated unit testing and CI/CD
  - Custom Cursor rules, agent, and skill
 
-**Tech:** Python • FastAPI • SQLAlchemy • SQLite • Pydantic Settings
-Docker • Docker Compose • Pytest • GitHub Actions
-Cursor • REST APIs
+**Tech Stack:** Python • FastAPI • SQLAlchemy • SQLite • Pydantic Settings • Docker • Docker Compose • Pytest • GitHub Actions • Cursor
 
 ---
 
