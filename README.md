@@ -6,7 +6,7 @@
 
 ## Featured Projects
 
-###  Watchagent Weather Monitor - Infrastructure Weather Monitoring Platform  
+###  Watchagent Weather Monitor:  Infrastructure Weather Monitoring Platform  
 
 A containerized monitoring platform that ingests live weather data, detects operationally relevant weather events, and exposes REST APIs for querying readings and alerts. Implemented Custom Cursor rules, review agent, and database analysis skill tailored to the codebase
 
@@ -52,6 +52,44 @@ Open-Meteo API  (free, no key, updates hourly)
 **Tech Stack:** Python • FastAPI • SQLAlchemy • SQLite • Pydantic Settings • Docker • Docker Compose • Pytest • GitHub Actions • Cursor
 
 ---
+### Headiator: Face-Controlled Fighting Game with a Live AI Announcer
+
+[![Watch the demo](https://img.youtube.com/vi/9tZU3SGazIs/0.jpg)](https://youtu.be/9tZU3SGazIs)
+
+A two-player browser fighting game controlled by facial gestures (MediaPipe) and your **real heart rate & breathing**, read live from the webcam (not wearable). Built at Hack the Hill with a 4-person team · live at [headiator.club](https://headiator.club) · [repo](https://github.com/Starrymel/Headiator)
+
+**My role: I owned the live AI announcer & post-match recap systems (end to end).**
+
+**Pipeline:**
+
+```
+match event (punch / laser / KO)
+      │
+      ▼
+commentary moment detector  →  Gemini line (Flash-Lite, minimal-latency)
+      │                              └─ fallback: pre-generated lines
+      ▼
+announcer queue  →  ElevenLabs TTS (disk-cached by voice+model+text)
+      │                              └─ fallback: browser voice
+      ▼
+plays in-game, live during the fight
+      │
+  round ends
+      ▼
+Gemini recap over the real logged events  →  dashboard (PostgreSQL, offline-safe)
+```
+
+**Highlights:**
+
+- Live AI announcer: Gemini commentary proxy behind an announcer queue, with latency-first model selection and fallback lines when the API is slow or unavailable
+- ElevenLabs TTS proxy with on-disk caching (keyed by voice + model + text) so repeated lines are instant plus pre-generated lines, API warm-up, and a browser-voice fallback
+- Post-match recap: Gemini summarizes the *actual* logged match events into a structured recap, with a template fallback if the key is missing or rate-limited
+- Match persistence + history dashboard that keeps working when the database is unreachable
+- Fixed per-player heart-rate routing (Presage) in two laptop WebSocket netplay
+- Priority-queued announcer with per-type cooldowns, staleness drops, and recent-line context to Gemini, so commentary never repeats or lags the fight
+- 15 test files across commentary, AI, persistence, and biometrics
+
+**Tech Stack:** Node.js • Express • Google Gemini API • ElevenLabs API • PostgreSQL • WebSocket (ws) • node:test . *(team stack also: MediaPipe • Canvas 2D • Presage/SmartSpectra • Render)*
 
 ###  RAG Research Agent (v1) — Retrieval-Augmented Generation System
 [![Watch the demo](https://img.youtube.com/vi/h-ciobBha74/0.jpg)](https://youtu.be/h-ciobBha74)
@@ -71,7 +109,7 @@ PDF ingestion → chunking → embeddings → vector search → grounded answers
 
 ---
 
-###  PapaPay — Full-Stack App
+###  PapaPay: Full-Stack App
 React + Node.js + MySQL  
 - Frontend: https://papa-pay.vercel.app
 - Backend API: https://papapay.onrender.com
