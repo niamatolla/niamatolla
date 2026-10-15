@@ -7,9 +7,9 @@
 
 ## Featured Projects
 
-### Netpulse: UDP Latency Load Tester with a C++ Measurement Core
+### Netpulse: UDP Latency Load Tester with a C++ Measurement Core · [repo](https://github.com/niamatolla/Netpulse)
 
-Pushes a network path with a controlled, rising stream of UDP packets and measures exactly *how and when* it degrades using tail latency, not averages. It finds the knee: the load where p99 and loss spike while p50 still looks fine. · [repo](https://github.com/niamatolla/Netpulse)
+Pushes a network path with a controlled, rising stream of UDP packets and measures exactly *how and when* it degrades using tail latency, not averages. It finds the knee: the load where p99 and loss spike while p50 still looks fine.
 
 **Pipeline:**
 
@@ -47,11 +47,13 @@ rate sweep  (100 → 5000 pps)
 
 **Tech Stack:** C++17 • CMake • Python • matplotlib • UDP sockets • POSIX / pthreads
 
-### Headiator: Face-Controlled Fighting Game with a Live AI Announcer
+---
+
+### Headiator: Face-Controlled Fighting Game with a Live AI Announcer · [repo](https://github.com/Starrymel/Headiator)
 
 [![Watch the demo](https://img.youtube.com/vi/9tZU3SGazIs/0.jpg)](https://youtu.be/9tZU3SGazIs)
 
-A two-player browser fighting game controlled by facial gestures (MediaPipe) and your **real heart rate & breathing**, read live from the webcam (not wearable). Built at Hack the Hill with a 4-person team · live at [headiator.club](https://headiator.club) · [repo](https://github.com/Starrymel/Headiator)
+A two-player browser fighting game controlled by facial gestures (MediaPipe) and your **real heart rate & breathing**, read live from the webcam (not wearable). Built at Hack the Hill with a 4-person team · live at [headiator.club](https://headiator.club)
 
 **My role: I owned the live AI announcer & post-match recap systems (end to end).**
 
@@ -85,7 +87,10 @@ Gemini recap over the real logged events  →  dashboard (PostgreSQL, offline-sa
 - 15 test files across commentary, AI, persistence, and biometrics
 
 **Tech Stack:** Node.js • Express • Google Gemini API • ElevenLabs API • PostgreSQL • WebSocket (ws) • node:test . *(team stack also: MediaPipe • Canvas 2D • Presage/SmartSpectra • Render)*
-###  Watchagent Weather Monitor:  Infrastructure Weather Monitoring Platform  
+
+---
+
+###  Watchagent Weather Monitor:  Infrastructure Weather Monitoring Platform  · [repo](https://github.com/niamatolla/watchagent-weather-monitor)
 
 A containerized monitoring platform that ingests live weather data, detects operationally relevant weather events, and exposes REST APIs for querying readings and alerts. Implemented Custom Cursor rules, review agent, and database analysis skill tailored to the codebase
 
@@ -131,7 +136,10 @@ Open-Meteo API  (free, no key, updates hourly)
 **Tech Stack:** Python • FastAPI • SQLAlchemy • SQLite • Pydantic Settings • Docker • Docker Compose • Pytest • GitHub Actions • Cursor
  ElevenLabs API • PostgreSQL • WebSocket (ws) • node:test . *(team stack also: MediaPipe • Canvas 2D • Presage/SmartSpectra • Render)*
 
-###  RAG Research Agent (v1) — Retrieval-Augmented Generation System
+---
+
+###  RAG Research Agent (v1) — Retrieval-Augmented Generation System · [repo](https://github.com/niamatolla/rag-research-agent)
+
 [![Watch the demo](https://img.youtube.com/vi/h-ciobBha74/0.jpg)](https://youtu.be/h-ciobBha74)
 
 End-to-end Retrieval-Augmented Generation system built with Azure
@@ -149,7 +157,7 @@ PDF ingestion → chunking → embeddings → vector search → grounded answers
 
 ---
 
-###  PapaPay: Full-Stack App
+###  PapaPay: Full-Stack App · [repo](https://github.com/niamatolla/PapaPay)
 React + Node.js + MySQL  
 - Frontend: https://papa-pay.vercel.app
 - Backend API: https://papapay.onrender.com
@@ -168,11 +176,11 @@ A request/approval workflow system with authentication and real-time state updat
 
 ## Additional Projects
 
-###  FPGA ALU (VHDL)
+###  FPGA ALU (VHDL) · [repo](https://github.com/hibaahan/ALU-Project)
 16-bit ALU with Booth multiplication, division, add/sub, and flags  
 Tested on DE2-115 using structural VHDL  
 
-###  MAX232 Loopback Test
+###  MAX232 Loopback Test · [repo](https://github.com/niamatolla/MAX232-Breadboard-Loopback-Test) 
 CMOS ↔ RS-232 conversion validated with oscilloscope + waveform generator  
 
 ---
@@ -180,28 +188,34 @@ CMOS ↔ RS-232 conversion validated with oscilloscope + waveform generator
 ## Tech Stack
 
 **Languages**  
-Python • Java • C • JavaScript • TypeScript • SQL • VHDL • PowerShell  
+Python • C++ • Java • JavaScript • TypeScript • SQL • VHDL • PowerShell  
 
-**Full-Stack**  
-React • Node.js • Express • TailwindCSS • Vite  
+**AI / Inference**  
+RAG Pipelines • Vector Search • Azure OpenAI • LLM Evaluation • Inference Benchmarking  
 
-**AI / Systems**  
-RAG Pipelines • Vector Search • Azure OpenAI • LLM Evaluation  
+**Systems / Performance**  
+C++17 • CMake • Multithreading (pthreads) • UDP Sockets • Tail-Latency and Percentile Analysis  
+
+**Backend / Full-Stack**  
+FastAPI • Node.js • Express • React • TailwindCSS • Vite  
+
+**Data**  
+PostgreSQL • MySQL • SQLite • SQLAlchemy  
 
 **Cloud & DevOps**  
-Docker • Kubernetes • Azure  
+Docker • Docker Compose • Azure • GitHub Actions (CI/CD)  
 
 **Tools**  
-Git • GitHub • GitLab • Postman • Vitest • Biome  
+Git • GitHub • GitLab • Azure DevOps • Postman • Pytest • Vitest • Biome • Cursor  
 
-**Other**  
-MySQL • Quartus II • Android Studio  
+**Hardware / Embedded**  
+VHDL • Quartus II • Android Studio  
 
 ---
 
-##  Currently Learning
+## Currently Learning
 
-LLM Systems • RAG Architecture • System Design • Scalable Backend Systems
+Model Serving & Batching • Inference Optimization • System Design • Distributed Systems
 
 
 
