@@ -2,8 +2,6 @@
 <img width="1200" height="650" alt="Capture d’écran, le 2026-10-15 à 16 47 02" src="https://github.com/user-attachments/assets/b49dc7e6-2af4-484a-bafb-4fc9baf7e41f" />
 
 
-![Profile Views](https://komarev.com/ghpvc/?username=hibaniama&color=ff69b4)
-![GitHub Followers](https://img.shields.io/github/followers/niamatolla?style=social)
 
 ## Featured Projects
 
